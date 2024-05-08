@@ -35,4 +35,4 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir:./dist # Adjust this path if your build outputs to a different directory
+          publish_dir: ./dist # Adjust this path if your build outputs to a different directory
