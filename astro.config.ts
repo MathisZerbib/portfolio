@@ -7,7 +7,7 @@ export default defineConfig({
   site: process.env.CI
     ? 'https://mathiszerbib.github.io'
     : 'http://localhost:4321',
-  base: 'mathiszerbib',
+  base: 'portfolio',
   integrations: [
     react(),
     tailwind({
