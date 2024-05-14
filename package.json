@@ -1,9 +1,9 @@
 {
-  "name": "@area44/astro-shadcn-ui-template",
+  "name": "@mathisZerbibastro-shadcn-ui-template",
   "version": "23.12.26",
   "description": "An Astro template for building apps.",
   "author": {
-    "name": "AREA44"
+    "name": "Mathis Zerbib"
   },
   "license": "MIT",
   "scripts": {
