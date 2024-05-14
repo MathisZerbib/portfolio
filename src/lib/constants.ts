@@ -7,10 +7,10 @@ export const loaderAnimation = [
 ]
 
 export const LINKS = {
-  github: 'https://github.com/bue221',
-  linkedin: 'https://www.linkedin.com/in/bue221/',
-  mail: 'mailto:camiloplaza3@gmail.com',
-  instagram: 'https://www.instagram.com/ancap.tattoo/',
+  github: 'https://github.com/mathisZerbib',
+  linkedin: 'www.linkedin.com/in/mathis-zerbib',
+  mail: 'mailto:mathis.zerbib@gmail.com',
+  instagram: 'https://www.instagram.com/elz3r/',
   medium: 'https://ladvace.medium.com/',
   discord: 'https://discordapp.com/users/163300027618295808',
 }
