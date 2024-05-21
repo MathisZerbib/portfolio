@@ -8,11 +8,11 @@ export const loaderAnimation = [
 
 export const LINKS = {
   github: "https://github.com/mathisZerbib",
-  linkedin: "www.linkedin.com/in/mathis-zerbib",
+  linkedin: "https://linkedin.com/in/mathis-zerbib",
   mail: "mailto:mathis.zerbib@gmail.com",
   instagram: "https://www.instagram.com/elz3r/",
-  medium: "https://ladvace.medium.com/",
-  discord: "https://discordapp.com/users/163300027618295808",
+  medium: "https://medium.com/@mathis.zerbib_72683",
+  discord: "https://discordapp.com/users/564153086201823232",
 };
 
 // Global
