@@ -86,7 +86,7 @@ export const EXPERIENCE = [
     company: "JobMe",
     location: "Montepllier, France",
     position: "Software Engineer - IOS/Android Developer",
-    start: "2022",
+    start: "2022 - 2024",
     link: "https://job-me.fr",
     end: "2024",
     tasks: [
