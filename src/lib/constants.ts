@@ -51,8 +51,8 @@ export const SEARCH: Page = {
 export const STUDIES = [
   {
     title: "React.js certification",
-    institution: "OpenClassRoom",
-    link: "https://www.ucentral.edu.co/",
+    institution: "OpenClassRooms",
+    link: "https://www.openclassrooms.com/",
     date: "2019 - 2020",
   },
   {
@@ -67,7 +67,7 @@ export const STUDIES = [
     institution: "Label - House Is Maison",
     link: "https://www.instagram.com/elz3r/",
     date: "2022 - 2025",
-  },
+  }
 ];
 
 export const EXPERIENCE = [
