@@ -50,35 +50,24 @@ export const SEARCH: Page = {
 // Study Page
 export const STUDIES = [
   {
-    title: "Computer Science",
-    institution: "Universidad Central",
+    title: "React.js certification",
+    institution: "OpenClassRoom",
     link: "https://www.ucentral.edu.co/",
-    date: "2019 - 2027",
+    date: "2019 - 2020",
   },
   {
-    title: "...",
-    institution: "Platzi",
-    link: "https://platzi.com/",
-    date: "2018 - 2022",
+    title: "Master in Computer Science",
+    institution: "Epitech",
+    link: "https://epitech.eu/",
+    date: "2022 - 2024",
   },
+
   {
-    title: "...",
-    institution: "Udemy",
-    link: "https://www.udemy.com/",
-    date: "2018 - 2022",
-  },
-  {
-    title: "...",
-    institution: "Youtube",
-    link: "https://www.youtube.com/@midulive",
-    date: "2018 - 2022",
-  },
-  {
-    title: "Tattoo Artist",
-    institution: "Tattoo Academy",
-    link: "https://www.instagram.com/tattoodcacademy/",
-    date: "2024 - 2025",
-  },
+    title: "Music Artist",
+    institution: "Label - House Is Maison",
+    link: "https://www.instagram.com/elz3r/",
+    date: "2022 - 2025",
+  }
 ];
 
 export const EXPERIENCE = [
