@@ -63,9 +63,9 @@ export const STUDIES = [
   },
 
   {
-    title: "Music Artist",
+    title: "Music Production",
     institution: "Label - House Is Maison",
-    link: "https://www.instagram.com/elz3r/",
+    link: "https://www.instagram.com/house__maison",
     date: "2022 - 2025",
   },
 ];
