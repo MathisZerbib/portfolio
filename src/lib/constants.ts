@@ -67,7 +67,7 @@ export const STUDIES = [
     institution: "Label - House Is Maison",
     link: "https://www.instagram.com/elz3r/",
     date: "2022 - 2025",
-  }
+  },
 ];
 
 export const EXPERIENCE = [
