@@ -115,9 +115,9 @@ export const EXPERIENCE = [
     company: "BSWeb - Pricecomparator",
     location: "Montpellier, France",
     position: "Software developer",
-    start: "2019",
+    start: "2018",
     link: "https://pricecomparator.pro",
-    end: "2020",
+    end: "2019",
     tasks: [
       "Development of a price comparator with the use of React, Redux, and Material UI",
       "Development of a web scraper with the use of NodeJS, Puppeteer, Axios",
