@@ -75,7 +75,7 @@ export const EXPERIENCE = [
     company: "JobMe",
     location: "Montepllier, France",
     position: "Software Engineer - IOS/Android Developer",
-    start: "2022 - 2024",
+    start: "2022",
     link: "https://job-me.fr",
     end: "2024",
     tasks: [
@@ -88,8 +88,9 @@ export const EXPERIENCE = [
     company: "DCube",
     location: "Paris, France",
     position: "Fullstack developer",
-    start: "2022",
+    start: "2020",
     link: "https://www.dcube.fr",
+end: "2021",
     tasks: [
       "Development of a web application with Angular, C# and .NET",
       "Use of SCRUM methodology",
@@ -101,9 +102,9 @@ export const EXPERIENCE = [
     company: "Zyneas",
     location: "Paris, France",
     position: "Software developer",
-    start: "2020",
+    start: "2019",
     link: "https://www.zyneas.fr",
-    end: "2021",
+    end: "2020",
     tasks: [
       "Development of a dashboard with react admin and chartjs for managing engineers and their work time",
       "Development of the static website zyneas.fr in collaboration with the design team",
