@@ -90,7 +90,7 @@ export const EXPERIENCE = [
     position: "Fullstack developer",
     start: "2020",
     link: "https://www.dcube.fr",
-end: "2021",
+    end: "2021",
     tasks: [
       "Development of a web application with Angular, C# and .NET",
       "Use of SCRUM methodology",
