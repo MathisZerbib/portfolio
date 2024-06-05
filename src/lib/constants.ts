@@ -126,7 +126,6 @@ export const EXPERIENCE = [
   },
 ];
 
-
 export const PROJECTS_LIST = [
   {
     id: 1,
@@ -141,7 +140,8 @@ export const PROJECTS_LIST = [
   {
     id: 2,
     title: "ATS Recruiter - JobMe",
-    description: "Mobile application to find a job with Flutter, NodeJS, MongoDB",
+    description:
+      "Mobile application to find a job with Flutter, NodeJS, MongoDB",
     skills: ["Flutter", "NodeJS", "MongoDB"],
     link: "/projects/job-me",
     imgList: ["/projects/AWA.png", "/projects/AWA.gif"],
@@ -157,4 +157,3 @@ export const PROJECTS_LIST = [
   //   imgAlt: "NodeViewer",
   // }
 ];
-
