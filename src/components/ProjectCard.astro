@@ -11,6 +11,7 @@ const {
   imagePath,
   altText,
   skills,
+  target
 } = Astro.props
 
 
@@ -18,7 +19,7 @@ const {
 ---
 
 
-<Tag href={href} class={`${className}`}>
+<Tag href={href} class={`${className}`} target={target}>
   <ShadcnCard
     className={`transfor-y-[-40%] align-start perspective-1200 group relative flex-none transform justify-start overflow-hidden shadow-lg transition duration-75 ease-in-out ${href ? 'cursor-pointer hover:border-primary' : ''}`}
   >

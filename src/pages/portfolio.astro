@@ -38,6 +38,7 @@ console.log(entries);
           <ProjectCard
             key={project.id} // Assuming sys.id exists and is unique
             href={project.link}
+            target={project.link.includes('http') ? '_blank' : '_self'}
             heading={project.title}
             subheading={project.description}
             imagePath={project.imgList}
