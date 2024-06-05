@@ -1,0 +1,51 @@
+---
+import { Card as ShadcnCard } from './ui/card';
+
+const {
+  as: Tag = 'a',
+  class: className,
+  href,
+  heading,
+  subheading,
+  imagePath,
+  altText,
+  projectDetails, // Assuming projectDetails is an object containing project details
+} = Astro.props;
+---
+
+<Tag href={href} class={`${className}`}>
+  <ShadcnCard
+    className={`transform-y-[-40%] align-start perspective-1200 group relative flex-none transform justify-start overflow-hidden shadow-lg transition duration-75 ease-in-out ${href? 'cursor-pointer hover:border-primary' : ''}`}
+  >
+    <div class="relative h-48 w-full overflow-hidden rounded-2xl rounded-bl-none rounded-br-none">
+      <img
+        src={imagePath[0]}
+        alt={altText}
+        class="absolute inset-0 h-full w-full object-cover transition-opacity duration-500 group-hover:opacity-0"
+        loading="eager"
+      />
+      <img
+        src={imagePath[1]}
+        alt={altText}
+        class="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+        loading="eager"
+      />
+    </div>
+    <div class="flex flex-col gap-y-0.5 px-5 py-4">
+      <h1 class="text-lg font-medium">{heading}</h1>
+      <h2 class="text-muted-foreground">{subheading}</h2>
+      <p class="mt-2 text-sm">{projectDetails.overview}</p> <!-- Overview of the project -->
+      <ul class="mt-4 list-disc pl-5">
+        {projectDetails.technologies.map((tech, index) => (
+          <li>{tech}</li>
+        ))}
+      </ul>
+      <div class="mt-4">
+        <a href={projectDetails.demoLink} target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Live Demo</a>
+        <a href={projectDetails.sourceCodeLink} target="_blank" rel="noopener noreferrer" class="ml-4 text-green-600 hover:underline">Source Code</a>
+      </div>
+    </div>
+
+    <slot />
+  </ShadcnCard>
+</Tag>

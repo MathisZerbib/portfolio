@@ -1,5 +1,6 @@
 ---
 import { Card as ShadcnCard } from './ui/card'
+import { Badge as ShadcnBadge } from './ui/badge'
 
 const {
   as: Tag = 'a',
@@ -9,24 +10,44 @@ const {
   subheading,
   imagePath,
   altText,
+  skills,
 } = Astro.props
+
+
+
 ---
 
-<Tag href={href} class={`${className}`} `>
+
+<Tag href={href} class={`${className}`}>
   <ShadcnCard
-    className={`transfor-y-[-40%] align-start perspective-1200 group relative flex-none transform justify-start overflow-hidden shadow-lg transition duration-75 ease-in-out ${href ? 'cursor-pointer hover:border-primary' : ''} `}
+    className={`transfor-y-[-40%] align-start perspective-1200 group relative flex-none transform justify-start overflow-hidden shadow-lg transition duration-75 ease-in-out ${href ? 'cursor-pointer hover:border-primary' : ''}`}
   >
-    <img
-      src={imagePath}
-      alt={altText}
-      class="h-48 w-full rounded-2xl rounded-bl-none rounded-br-none object-cover"
-      loading="eager"
-    />
+    <div class="relative h-48 w-full overflow-hidden rounded-2xl rounded-bl-none rounded-br-none">
+      <img
+        src={imagePath[0]}
+        alt={altText}
+        class="absolute inset-0 h-full w-full object-cover transition-opacity duration-500 group-hover:opacity-0"
+        loading="eager"
+      />
+      <img
+        src={imagePath[1]}
+        alt={altText}
+        class="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+        loading="eager"
+      />
+    </div>
     <div class="flex flex-col gap-y-0.5 px-5 py-4">
       <h1 class="text-lg font-medium">{heading}</h1>
+      <div class="flex flex-wrap gap-2 py-2">
+        
+      {skills.map((skill) => (
+        <ShadcnBadge variant={"secondary"}>{skill}</ShadcnBadge>
+      ))
+      }
+              </div>
+
       <h2 class="text-muted-foreground">{subheading}</h2>
     </div>
-
     <slot />
   </ShadcnCard>
 </Tag>

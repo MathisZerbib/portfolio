@@ -125,3 +125,36 @@ export const EXPERIENCE = [
     ],
   },
 ];
+
+
+export const PROJECTS_LIST = [
+  {
+    id: 1,
+    title: "Delivery - Blockchain eShop",
+    description: "Delivery web3 app to buy products on-chain with TON",
+    skills: ["React", "TypeScript", "Web3"],
+    link: "https://twa-ton.vercel.app",
+    imgList: ["/projects/TWA.png", "/projects/TWA.gif"],
+    imgAlt: "Astro Sphere",
+  },
+
+  {
+    id: 2,
+    title: "ATS Recruiter - JobMe",
+    description: "Mobile application to find a job with Flutter, NodeJS, MongoDB",
+    skills: ["Flutter", "NodeJS", "MongoDB"],
+    link: "/projects/job-me",
+    imgList: ["/projects/AWA.png", "/projects/AWA.gif"],
+    imgAlt: "JobMe",
+  },
+  // {
+  //   id: 3,
+  //   title: "Node viewer - Scrapper",
+  //   description: "NodeJS tool to increase views on ebay or on a youtube video",
+  //   skills: ["NodeJS", "Puppeteer", "Axios"],
+  //   link: "/projects/zyneas",
+  //   imgList: ["/projects/zyneas.png", "/projects/zyneas.gif"],
+  //   imgAlt: "NodeViewer",
+  // }
+];
+
