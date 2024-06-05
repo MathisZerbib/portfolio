@@ -2,7 +2,7 @@
 import ContentCard from './ContentCard.astro'
 import { Card as ShadcnCard } from './ui/card'
 import { SquareArrowOutUpRight } from 'lucide-react'
-
+import { PROJECTS_LIST } from '../lib/constants'
 interface Props {
   title?: string
   body?: string
@@ -13,6 +13,7 @@ interface Props {
 }
 
 const { title, body, colSpan, rowSpan, href, colorText } = Astro.props
+const entries = PROJECTS_LIST
 ---
 
 <ShadcnCard
@@ -30,11 +31,21 @@ const { title, body, colSpan, rowSpan, href, colorText } = Astro.props
         <ContentCard title={title} body={body}>
           <slot />
         </ContentCard>
+        <ul class="mt-4 list-disc pl-3">
+          {entries.map((entry) => (
+            <li class="text-sm"
+            >{entry.title}</li>
+          ))}
+        </ul>
+
+
       </a>
     ) : (
       <ContentCard title={title} body={body}>
         <slot />
       </ContentCard>
+
+      
     )
   }
 </ShadcnCard>
