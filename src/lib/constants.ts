@@ -158,7 +158,6 @@ export const PROJECTS_LIST = [
   // }
 ];
 
-
 export const PLAYLISTS = [
   {
     id: 1,
