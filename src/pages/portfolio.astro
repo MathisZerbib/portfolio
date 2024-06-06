@@ -33,17 +33,17 @@ console.log(entries);
       </h2>
     </TopLayout>
     <BottomLayout>
-      <div class="flex w-full flex-wrap justify-center gap-2">
+      <div class="flex w-full flex-wrap justify-center gap-5">
         {entries.map((project: Project) => (
           <ProjectCard
-            key={project.id} // Assuming sys.id exists and is unique
+            key={project.id}
             href={project.link}
             target={project.link.includes('http') ? '_blank' : '_self'}
             heading={project.title}
             subheading={project.description}
             imagePath={project.imgList}
             skills={project.skills}
-            altText={project.imgAlt || 'Project Image'} // Assuming imgAlt property exists
+            altText={project.imgAlt || 'Project Image'}
             class="w-full sm:w-2/5"
           />
         ))}

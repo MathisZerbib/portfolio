@@ -14,6 +14,7 @@ interface Props {
 
 const { title, body, colSpan, rowSpan, href, colorText } = Astro.props
 const entries = PROJECTS_LIST
+const outsideLink = (href ?? '').includes('http') ? '_blank' : '_self'
 ---
 
 <ShadcnCard
@@ -23,7 +24,7 @@ const entries = PROJECTS_LIST
 >
   {
     href ? (
-      <a href={href} class={`block h-full w-full ${colorText || ' '}`}>
+      <a href={href} class={`block h-full w-full ${colorText || ' '}`} target={outsideLink}>
         <SquareArrowOutUpRight
           className="group-hover:text-primary position absolute right-6 "
           size={20}

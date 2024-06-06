@@ -157,3 +157,28 @@ export const PROJECTS_LIST = [
   //   imgAlt: "NodeViewer",
   // }
 ];
+
+
+export const PLAYLISTS = [
+  {
+    id: 1,
+    title: "House Is Maison",
+    description: "House music playlist",
+    src: "https://open.spotify.com/playlist/3LxK2Fz9Q5y5vQvZ6Ez8Vc?si=3b1e8d8e9f5e4b6d",
+    img: "/music/house.png",
+  },
+  {
+    id: 2,
+    title: "Hip Hop",
+    description: "Hip Hop music playlist",
+    src: "https://open.spotify.com/playlist/3LxK2Fz9Q5y5vQvZ6Ez8Vc?si=3b1e8d8e9f5e4b6d",
+    img: "/music/hiphop.png",
+  },
+  {
+    id: 3,
+    title: "Techno",
+    description: "Techno music playlist",
+    src: "https://open.spotify.com/playlist/3LxK2Fz9Q5y5vQvZ6Ez8Vc?si=3b1e8d8e9f5e4b6d",
+    img: "/music/techno.png",
+  },
+];
