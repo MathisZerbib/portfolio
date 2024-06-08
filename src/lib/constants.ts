@@ -129,7 +129,7 @@ export const EXPERIENCE = [
 export const PROJECTS_LIST = [
   {
     id: 1,
-    title: "Delivery - Blockchain eShop",
+    title: "CBD Delivery - Blockchain",
     description: "Delivery web3 app to buy products on-chain with TON",
     skills: ["React", "TypeScript", "Web3"],
     link: "https://twa-ton.vercel.app",
