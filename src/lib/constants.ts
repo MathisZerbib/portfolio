@@ -139,13 +139,13 @@ export const PROJECTS_LIST = [
 
   {
     id: 2,
-    title: "ATS Recruiter - JobMe",
+    title: "ATS Recruiter",
     description:
       "Mobile application to find a job with Flutter, NodeJS, MongoDB",
     skills: ["Flutter", "NodeJS", "MongoDB"],
     link: "/projects/job-me",
     imgList: ["/projects/AWA.png", "/projects/AWA.gif"],
-    imgAlt: "JobMe",
+    imgAlt: "ATS Recruiter",
   },
   // {
   //   id: 3,
