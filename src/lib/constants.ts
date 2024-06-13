@@ -147,15 +147,15 @@ export const PROJECTS_LIST = [
     imgList: ["/projects/AWA.png", "/projects/AWA.gif"],
     imgAlt: "ATS Recruiter",
   },
-  // {
-  //   id: 3,
-  //   title: "Node viewer - Scrapper",
-  //   description: "NodeJS tool to increase views on ebay or on a youtube video",
-  //   skills: ["NodeJS", "Puppeteer", "Axios"],
-  //   link: "/projects/zyneas",
-  //   imgList: ["/projects/zyneas.png", "/projects/zyneas.gif"],
-  //   imgAlt: "NodeViewer",
-  // }
+  {
+    id: 3,
+    title: "Angova - E-learning",
+    description: "E-learning platform for learning the highway french code in foreign languages",
+    skills: ["NextJS", "MongoDB", "S3 Bucket"],
+    link: "https://www.angova.io/",
+    imgList: ["/projects/angova.png", "/projects/angova.gif"],
+    imgAlt: "Angova",
+  }
 ];
 
 export const PLAYLISTS = [
