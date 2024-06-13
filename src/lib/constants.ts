@@ -150,12 +150,13 @@ export const PROJECTS_LIST = [
   {
     id: 3,
     title: "Angova - E-learning",
-    description: "E-learning platform for learning the highway french code in foreign languages",
+    description:
+      "E-learning platform for learning the highway french code in foreign languages",
     skills: ["NextJS", "MongoDB", "S3 Bucket"],
     link: "https://www.angova.io/",
     imgList: ["/projects/angova.png", "/projects/angova.gif"],
     imgAlt: "Angova",
-  }
+  },
 ];
 
 export const PLAYLISTS = [
