@@ -139,7 +139,7 @@ export const PROJECTS_LIST = [
 
   {
     id: 2,
-    title: "ATS Recruiter",
+    title: "ATS - Recruiting",
     description:
       "Mobile application to find a job with Flutter, NodeJS, MongoDB",
     skills: ["Flutter", "NodeJS", "MongoDB"],
