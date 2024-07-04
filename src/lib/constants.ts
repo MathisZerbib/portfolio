@@ -50,6 +50,12 @@ export const SEARCH: Page = {
 // Study Page
 export const STUDIES = [
   {
+    title: "Computer Science Bachelor",
+    institution: "Objectif 3W",
+    link: "https://www.objectif3w.com/",
+    date: "2018 - 2019",
+  },
+  {
     title: "React.js certification",
     institution: "OpenClassRooms",
     link: "https://www.openclassrooms.com/",
@@ -60,13 +66,6 @@ export const STUDIES = [
     institution: "Epitech",
     link: "https://epitech.eu/",
     date: "2022 - 2024",
-  },
-
-  {
-    title: "Music Production",
-    institution: "Label - House Is Maison",
-    link: "https://www.instagram.com/house__maison",
-    date: "2022 - 2025",
   },
 ];
 
@@ -157,6 +156,16 @@ export const PROJECTS_LIST = [
     imgList: ["/projects/angova.png", "/projects/angova.gif"],
     imgAlt: "Angova",
   },
+
+  // {
+  //   id: 4,
+  //   title: "Flutter flame runner",
+  //   description: "Mobile game with Flutter and Flame",
+  //   skills: ["Flutter", "Flame"],
+  //   link: "gooogleplay.com",
+  //   imgList: ["/projects/runner.png", "/projects/runner.gif"],
+  //   imgAlt: "Flutter flame runner",
+  // },
 ];
 
 export const PLAYLISTS = [
