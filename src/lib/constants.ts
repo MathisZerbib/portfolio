@@ -78,9 +78,9 @@ export const EXPERIENCE = [
     link: "https://job-me.fr",
     end: "2024",
     tasks: [
-      "Development of a mobile application with the use of Flutter, that allows the user to find a job",
-      "Development of API with the use of NodeJS",
-      "Development and build of DB with mongoDB",
+      "Development of a mobile application with the use of Flutter, that allows the user to find a job.\n",
+      "Development of API with the use of NodeJS.\n",
+      "Development and build of DB with mongoDB.\n",
     ],
   },
   {
@@ -91,10 +91,10 @@ export const EXPERIENCE = [
     link: "https://www.dcube.fr",
     end: "2021",
     tasks: [
-      "Development of a web application with Angular, C# and .NET",
-      "Use of SCRUM methodology",
-      "Claro projects with the use of frameworks and libraries such as react and angular",
-      "Use of redux toolkit as aproposal which allowed a shorter development time when using this tool",
+      "Development of a web application with Angular, C# and .NET.\n",
+      "Use of SCRUM methodology.\n",
+      "Claro projects with the use of frameworks and libraries such as react and angular.\n",
+      "Use of redux toolkit as aproposal which allowed a shorter development time when using this tool.\n",
     ],
   },
   {
@@ -105,9 +105,9 @@ export const EXPERIENCE = [
     link: "https://www.zyneas.fr",
     end: "2020",
     tasks: [
-      "Development of a dashboard with react admin and chartjs for managing engineers and their work time",
-      "Development of the static website zyneas.fr in collaboration with the design team",
-      "Development of a nodeJs tools to gather information from a spreadsheet and send it to the dashboard",
+      "Development of a dashboard with vue3 and vue-chartjs for managing engineers and their work time.\n",
+      "Development of the static website zyneas.fr in collaboration with the design team.\n",
+      "Development of a nodeJs tools to gather information from a spreadsheet and send it to the dashboard.\n",
     ],
   },
   {
@@ -118,9 +118,9 @@ export const EXPERIENCE = [
     link: "https://pricecomparator.pro",
     end: "2019",
     tasks: [
-      "Development of a price comparator with the use of React, Redux, and Material UI",
-      "Development of a web scraper with the use of NodeJS, Puppeteer, Axios",
-      "Development of their website with wordpress",
+      "Development of a price comparator with the use of React, Redux, and Material UI.\n",
+      "Development of a web scraper with the use of NodeJS, Puppeteer, Axios.\n",
+      "Development of their website with wordpress.\n",
     ],
   },
 ];
