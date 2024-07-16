@@ -1,3 +1,4 @@
+import { link } from "fs";
 import type { Site, Page } from "./types";
 
 export const loaderAnimation = [
@@ -133,7 +134,7 @@ export const PROJECTS_LIST = [
     skills: ["React", "TypeScript", "Web3"],
     link: "https://twa-ton.vercel.app",
     imgList: ["/projects/TWA.png", "/projects/TWA.gif"],
-    imgAlt: "Astro Sphere",
+    imgAlt: "CBD Delivery",
   },
 
   {
@@ -142,7 +143,8 @@ export const PROJECTS_LIST = [
     description:
       "Mobile application to find a job with Flutter, NodeJS, MongoDB",
     skills: ["Flutter", "NodeJS", "MongoDB"],
-    link: "/projects/job-me",
+    // link: "/projects/job-me",
+    link: "",
     imgList: ["/projects/AWA.png", "/projects/AWA.gif"],
     imgAlt: "ATS Recruiter",
   },
@@ -152,21 +154,22 @@ export const PROJECTS_LIST = [
     description:
       "E-learning platform for learning the highway french code in foreign languages",
     skills: ["NextJS", "MongoDB", "S3 Bucket"],
-    link: "https://www.angova.io/",
+    // link: "https://www.angova.io/",
+    link: "",
     imgList: ["/projects/angova.png", "/projects/angova.gif"],
     imgAlt: "Angova",
   },
 
-  // {
-  //   id: 4,
-  //   title: "Flutter flame runner",
-  //   description: "Mobile game with Flutter and Flame",
-  //   skills: ["Flutter", "Flame"],
-  //   link: "gooogleplay.com",
-  //   imgList: ["/projects/runner.png", "/projects/runner.gif"],
-  //   imgAlt: "Flutter flame runner",
-  // },
-];
+  {
+    id: 4,
+    title: "Flutter flame runner",
+    description: "Mobile game based on the french meme Lopez, music made by me",
+    skills: ["Flutter", "Flame", "Cross Platform"],
+    link: "",
+    imgList: ["/projects/endless_lopez.png", "/projects/endless_lopez.webp"],
+    imgAlt: "Image of the Endless Lopez Game",
+  },
+]
 
 export const PLAYLISTS = [
   {
