@@ -169,7 +169,7 @@ export const PROJECTS_LIST = [
     imgList: ["/projects/endless_lopez.png", "/projects/endless_lopez.webp"],
     imgAlt: "Image of the Endless Lopez Game",
   },
-]
+];
 
 export const PLAYLISTS = [
   {
